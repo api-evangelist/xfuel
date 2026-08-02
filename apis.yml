@@ -1,8 +1,23 @@
 aid: xfuel
 name: XFuel
-description: XFuel is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: XFuel develops, patents, and deploys technologies that transform diverse
+  waste into low-carbon drop-in transport fuels, using its Chemical Liquid Refining
+  (CLR) and Mechanical Carbon Conversion (MECC) processes to produce marine (ISO
+  8217 DMA), road (EN590), and in-development sustainable aviation fuels. Headquartered
+  in Dublin, Ireland, with operations in Bunyola, Spain, and backed by Union Square
+  Ventures. XFuel publishes no public API or developer program as of 2026-07-21.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://xfuel.com/wp-content/uploads/2026/01/cropped-xfuel-ico-c-192x192.png
 url: https://raw.githubusercontent.com/api-evangelist/xfuel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Energy
+- Biofuels
+- Sustainability
+- Transportation
+- Climate
+- Waste-to-Fuel
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +43,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/xfuel-domain-security.yml
 - type: Website
   url: https://xfuel.com
+- type: LLMsTxt
+  url: llms/xfuel-llms.txt
+- type: Blog
+  url: https://xfuel.com/news/
+- type: BlogRSS
+  url: https://xfuel.com/feed/
+- type: PrivacyPolicy
+  url: https://xfuel.com/privacy
+- type: Contact
+  url: https://xfuel.com/contact/
+- type: Careers
+  url: https://xfuel.com/careers/
+- type: LinkedIn
+  url: https://linkedin.com/company/xfuelhq
+- type: Twitter
+  url: https://twitter.com/xfuelhq
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

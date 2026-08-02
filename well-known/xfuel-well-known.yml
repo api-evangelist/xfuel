@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of https://xfuel.com
+name: XFuel Well-Known Probes
+description: Results of probing standard /.well-known/ and root discovery paths on
+  xfuel.com. No well-known artifacts are published by this provider; every probe
+  below returned a non-200 status. Recorded so future enrichment rounds know this
+  surface was checked.
+host: https://xfuel.com
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  found: false
+- path: /.well-known/openid-configuration
+  status: 404
+  found: false
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  found: false
+- path: /.well-known/api-catalog
+  status: 404
+  found: false
+- path: /.well-known/ai-plugin.json
+  status: 404
+  found: false
+- path: /llms.txt
+  status: 404
+  found: false
+- path: /security.txt
+  status: 404
+  found: false
+- path: /robots.txt
+  status: 200
+  found: true
+  note: Standard WordPress robots.txt only; not saved as an artifact.

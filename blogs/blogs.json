@@ -1,0 +1,21 @@
+{
+  "repo": "xfuel",
+  "feeds": [
+    {
+      "source": "https://xfuel.com/feed/",
+      "feed_url": "https://xfuel.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://xfuel.com/news/",
+      "feed_url": "https://xfuel.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
+}
