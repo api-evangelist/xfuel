@@ -6,6 +6,17 @@ description: XFuel develops, patents, and deploys technologies that transform di
   8217 DMA), road (EN590), and in-development sustainable aviation fuels. Headquartered
   in Dublin, Ireland, with operations in Bunyola, Spain, and backed by Union Square
   Ventures. XFuel publishes no public API or developer program as of 2026-07-21.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
